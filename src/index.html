@@ -256,9 +256,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
       <!-- DEMO -->
       <wct-panel header="JavaScript Meetup">
-        <section>With supporting text below as a natural lead-in to additional content.</section>
+        <section slot="body">With supporting text below as a natural lead-in to additional content.</section>
 
-        <button value="OK" class="btn btn-primary">OK</button>
+          <section slot="controls">
+              <button value="OK" class="btn btn-primary">OK</button>
+          </section>
       </wct-panel>
 
       <div class="card">

@@ -14,4 +14,7 @@ h5{font-size:1.25rem;}
 *,*::before,*::after{text-shadow:none!important;box-shadow:none!important;}
 }
 .card{box-shadow:0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);}
-.card-header::after,.card-body::after{display:block;clear:both;content:"";}`;
+.card-header::after,.card-body::after{display:block;clear:both;content:"";}
+.card-footer{padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 0 solid}`;

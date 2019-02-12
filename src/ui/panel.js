@@ -10,10 +10,10 @@ ${style}
           <h5 class="m-0"></h5>
         </div>
         <div class="card-body">
-          
+          <slot name="body"></slot>
         </div>
         <div class="card-footer">
-          
+          <slot name="controls"></slot>
         </div>
 </div>
 `;
